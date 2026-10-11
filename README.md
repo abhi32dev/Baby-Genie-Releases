@@ -8,7 +8,7 @@ Official downloadable binaries and installers for **Baby Genie** on macOS.
 
 ### macOS
 Download the latest universal `.dmg` installer (Apple Silicon M-series & Intel):
-- **[Download Baby Genie v0.1.0 (.dmg)](https://github.com/abhi32dev/Baby-Genie-Releases/releases/download/v0.1.0/Baby-Genie-MacOS-v1-release-Baby-Genie.dmg)**
+- **[Download Baby Genie v0.1.0 (.dmg)](https://github.com/abhi32dev/Baby-Genie-Releases/releases/download/v0.1.0/Baby-Genie-MacOS-v1.dmg)**
 
 ---
 
