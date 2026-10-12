@@ -1,4 +1,4 @@
-# Baby Genie — Official Releases
+# Baby Genie: Official Releases
 
 Official downloadable binaries and installers for **Baby Genie** on macOS.
 
