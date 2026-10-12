@@ -1,17 +1,28 @@
-# Baby Genie — Quick Start & Setup Guide ✨
-Your personal intelligent companion in the macOS menu bar.
+# Baby Genie ✨
+A Magical, Mindful Companion for Your Mac.
 
 ====================================================================
-TABLE OF CONTENTS
-1. Installation (Drag & Drop)
-2. Opening for the First Time on macOS (Security Prompt)
-3. Connecting an AI Engine (Claude or OpenAI / Codex)
-4. Making Your First Wish
-5. Troubleshooting & Common Questions
+"Forget the 3-wish limit. You have infinite wishes.
+Tell your genie what you wish this space to become."
 ====================================================================
+
+Baby Genie is not another noisy app or rigid chat box. 
+It is a quiet, beautiful sanctuary in your macOS menu bar.
+
+Unlike chat assistants that only reply with walls of text, 
+Baby Genie is a shapeshifting window of transformation. 
+When you make a wish, it weaves real, living graphical software 
+right in front of you:
+
+Tell it you want to focus, and it manifests a peaceful meditation timer.
+Tell it you need clarity, and it graphs your hardware and tools.
+Tell it you need warmth, and it offers daily wisdom to start your morning.
+
+It is your secure personal companion — always at hand, always ready to serve.
+
 
 --------------------------------------------------------------------
-1. INSTALLATION
+STEP 1: PLACE THE LAMP ON YOUR MAC (5 SECONDS)
 --------------------------------------------------------------------
 1. In the installer window, drag the "Baby Genie" lamp icon directly 
    into the "Applications" folder shortcut.
@@ -19,107 +30,91 @@ TABLE OF CONTENTS
 
 
 --------------------------------------------------------------------
-2. OPENING FOR THE FIRST TIME ON MACOS
+STEP 2: OPENING SAFELY ON MACOS
 --------------------------------------------------------------------
-Because Baby Genie is an independent app downloaded from the web 
-(and not through the Mac App Store), macOS Gatekeeper displays a 
-security notice the very first time you launch it.
-
-Here are the 2 quick ways to approve it:
+Because Baby Genie is an independent app crafted with love and 
+downloaded from GitHub, modern macOS asks you to approve opening it once:
 
 METHOD A: Via System Settings (Recommended for everyone)
-1. If macOS shows a popup saying Apple cannot verify it, click "Done" or "OK".
+1. If macOS displays a notice, click "Done" or "OK".
 2. Open your Mac's "System Settings" from the Apple menu ().
-3. Click "Privacy & Security" in the left sidebar and scroll down to "Security".
-4. You will see a message: "Baby Genie was blocked to protect your Mac".
-5. Click the "Open Anyway" button next to it.
-6. Enter your Mac password or Touch ID, then click "Open".
-(Note: You only ever have to do this once. After this, it opens normally forever!)
+3. Go to "Privacy & Security" and scroll down to the "Security" section.
+4. You will see: "Baby Genie was blocked to protect your Mac".
+5. Click "Open Anyway", verify with your password or Touch ID, and click "Open".
+(You only do this once. After this, your Genie opens instantly forever!)
 
-METHOD B: Fast 1-Second Terminal Shortcut (For power users)
-If you prefer, open Terminal and paste this one line:
+METHOD B: One-Line Terminal Shortcut (For power users)
+Open Terminal and paste this one line:
 
 xattr -cr "/Applications/Baby Genie.app"
 
 Press Enter, and then double-click "Baby Genie" in Applications. 
-It will open immediately with zero security prompts.
+It opens immediately with zero security prompts.
 
 
 --------------------------------------------------------------------
-3. CONNECTING AN AI ENGINE (Claude or OpenAI / Codex)
+STEP 3: AWAKENING THE GENIE (LINKING YOUR AI ASSISTANT)
 --------------------------------------------------------------------
-Baby Genie works by using an AI assistant on your Mac to build and 
-update your widgets whenever you make a wish. It supports both 
-Anthropic (Claude) and OpenAI (Codex).
-
-Pick whichever AI you prefer to power your Genie:
+Baby Genie provides the living canvas; it connects to an AI coding engine 
+to synthesize widgets and grant your wishes. You can use either 
+Claude or OpenAI / Codex:
 
 --- OPTION 1: Using Claude (Recommended) ---
-1. Open Terminal (press Cmd + Space, type "Terminal", press Enter).
-2. Install the Claude tool by pasting this command:
-
+1. Open Terminal (Cmd + Space, type "Terminal", press Enter).
+2. Install the engine:
 npm install -g @anthropic-ai/claude-code
-
-3. Once installed, log in by typing:
-
+3. Log in by typing:
 claude
-
-4. Press Enter. It will open your web browser to sign in to your Claude account.
-Once signed in, Baby Genie is immediately connected!
-
+(Follow the quick one-time browser login prompt to link your account.)
 
 --- OPTION 2: Using OpenAI / Codex ---
 1. Open Terminal.
-2. Install the Codex CLI tool by pasting this command:
-
+2. Install the Codex tool:
 npm install -g @openai/codex
-
 3. Log in by typing:
-
 codex login
 
-Follow the prompt to connect your OpenAI account.
-
-
 (Prerequisite Note: Both tools use Node.js. If your Mac says "npm: command not found", 
-simply download the free installer from https://nodejs.org, install it once, 
-and run the command above.)
+simply download the free installer from https://nodejs.org in 1 minute.)
 
 
 --------------------------------------------------------------------
-4. MAKING YOUR FIRST WISH
+STEP 4: WISH AWAY — MAKING YOUR FIRST WISH
 --------------------------------------------------------------------
-1. Click the golden Genie Lamp in your menu bar at the top of your Mac screen.
-2. You will see the prompt bar at the bottom: "Make a Wish..."
-3. Type what you want to see, for example:
-   - summon a monitor for cpu, gpu, and ram
-   - grant a tracker for my weekly ai usage & quotas
-   - manifest a gentle reminder to breathe, stretch & hydrate
-   - grant a daily morning affirmation and mindful thought
-4. Press Enter!
-5. Watch your Genie build the widget in real time right in front of you.
-6. When it finishes, you can click "Keep" to save it, or "Undo" to revert.
+Click the golden lamp in your menu bar. At the bottom, type into 
+"Make a Wish..." and hit Enter:
+
+• Live Telemetry & Gauges:
+  "summon a monitor for cpu, gpu, and ram"
+
+• AI Quotas & Productivity:
+  "grant a tracker for my weekly ai usage & quotas"
+
+• Mindfulness & Deep Work:
+  "manifest a gentle reminder to breathe, stretch & hydrate"
+
+• Morning Wisdom & Peace:
+  "grant a daily morning affirmation and mindful thought"
+
+• Atmosphere & Media:
+  "conjure a mini player for my music and relaxing beats"
+
+Sit back, rub the lamp, and watch your wish come alive. 
+Review the live result, click "Keep" to save it, or "Undo" to try another wish!
 
 
 --------------------------------------------------------------------
-5. TROUBLESHOOTING & COMMON QUESTIONS
+TROUBLESHOOTING & PEACE OF MIND
 --------------------------------------------------------------------
+• "Agent unavailable":
+  Open Terminal and type "claude" or "codex" to make sure you are logged in.
+  In Baby Genie, click Settings (gear icon in header) -> "Agents" to verify 
+  that your engine has a green status light.
 
-PROBLEM: The app says "Agent unavailable" when I make a wish.
-FIX:
-1. Baby Genie couldn't find an active AI tool in your Terminal.
-2. Open Terminal and type "claude" or "codex" to make sure you are logged in.
-3. In Baby Genie, click the Settings gear icon in the top-right header, 
-   go to "Agents", and make sure Claude or Codex has a green status indicator.
+• Lamp hidden behind screen notch:
+  If your MacBook screen notch hides icons, press Cmd + Space, type "Baby Genie", 
+  and press Enter to bring it straight to the front.
 
-PROBLEM: The lamp icon disappeared from my menu bar.
-FIX:
-If you have a MacBook with a screen notch or many menu bar icons, 
-macOS might temporarily hide icons on the left.
-1. Close a few unused background menu apps to free up space, or
-2. Open Spotlight (Cmd + Space), type "Baby Genie", and press Enter to bring it forward.
-
-PROBLEM: How do I quit or restart Baby Genie?
-FIX:
-Click the Genie lamp in the menu bar, then click the Power icon (⏻) 
-in the top-right header to quit cleanly.
+• 100% Private & Secure:
+  Your wishes, widgets, and data never leave your Mac. Everything runs 
+  locally on your own machine with zero data harvesting.
